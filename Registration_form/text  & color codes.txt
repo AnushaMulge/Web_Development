@@ -1,0 +1,13 @@
+By clicking SignUp, you agree to our Terms, Privacy Policy and Cookies policy. You may receive SMS notifications from us and can opt at any time.
+
+Container Shadow:
+#ABB2B9
+
+h2 color, label color, gender-title:
+ #2f4f4f
+
+Button Color:
+ #aa076b,#61045f
+
+Button hover color:
+ #61045f, #aa076b
