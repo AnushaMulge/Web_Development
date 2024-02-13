@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function togglePasswordVisibility(inputId, checkboxId) {
+            var passwordInput = document.getElementById(inputId);
+            var checkbox = document.getElementById(checkboxId);
+
+            if (checkbox.checked) {
+                passwordInput.type = "text";
+            } else {
+                passwordInput.type = "password";
+            }
+        }
+        function showSuccessMessage(message) {
+            alert(message);
+        }
+    </script>
+    <title>User Login</title>
+</head>
+<body>
+    <div class="container">
+        <form id="loginForm" action="login.php" method="post">
+            <h2>User Login</h2>
+            <label for="loginEmail">Email:</label>
+            <input type="email" name="loginEmail" required>
+
+            <label for="loginPassword">Password:</label>
+            <input type="password" name="loginPassword" required>
+
+            <a href="welcome.html"></a><button type="submit">Login</button></a>
+            <div class="option"> New user? Create an account. 
+            <a href="register.html">Register</a></div>
+        </form>
+    </div>
+</body>
+</html>
