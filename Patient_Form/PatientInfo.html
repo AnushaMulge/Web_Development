@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StyleSheets.css">
+    <title>New Patient Details Entry</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" method="post">
+            <div class="button-container">
+                <button type="back" onclick="window.location.href='http://localhost/WebPharma/NewPatient/PatientInfo.html'";>Back</button> 
+            </div><br><br><br><br>
+            <h1>Patient Information:</h1>
+            <div class="content">
+                <div class="input-box">
+                    <label for="patientno">Patient IP No. &nbsp; 
+                    <input type="text" placeholder="Enter Patient IP number" name="patientno" required></label>
+                    <label for="admit date"> &emsp;&emsp; Date of Admission &nbsp; 
+                    <input type="date" placeholder="Enter admit date" name="admit date" required> </label>
+                </div>
+                <div class="input-box">
+                    <label for="pname">Patient Name  &nbsp; 
+                    <input type="text" placeholder="Enter patient name" name="pname" required></label>
+                    <label for="age">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Age &nbsp;&nbsp;&nbsp; 
+                    <input type="number" placeholder="Enter age" name="age" required></label>
+                </div>
+                <span class="gender-category">
+                    <label for="gender">Gender &emsp;</label>
+                    <input type="radio" name="gender" id="male">
+                    <label for="gender">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="gender">Female</label>
+                    <input type="radio" name="gender" id="other">
+                    <label for="gender">Other &emsp; </label> 
+                </span>
+                <div class="input-box">
+                    <label for="diagnosis">Diagnosis &nbsp; &nbsp; &nbsp; &nbsp;  
+                    <input type="text" placeholder="Enter diagnosis details" name="diagnosis" required> </label>
+                </div><br>
+                <div class="input-box">
+                    <h2>Lab Investigations:  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;
+                    <label for="date"> 
+                    <input type="date" placeholder="Enter the date" name="date" required> </label>
+                    <button type="update" onclick="window.location.href='http://localhost/WebPharma/NewPatient/frontsheet.html'";>Update</button></h2></div><br>
+                <div  class="input-box"><ol>
+                    <label for="AST">AST &nbsp; 
+                    <input type="text" placeholder="Enter the test results" name="AST" required> </label>
+                    <label for="SrCreatinine"> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Sr. Creatinine &nbsp; 
+                    <input type="text" placeholder="Enter the test results" name="SrCreatinine" required> </label><br>
+                    <label for="ALT">ALT &nbsp; 
+                    <input type="text" placeholder="Enter the test results" name="ALT" required> </label>
+                    <label for="eGFR">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;eGFR &nbsp;  
+                    <input type="text" placeholder="Enter the test results" name="eGFR" required></label><br>
+                    <label for="ALP">ALP &nbsp;   
+                    <input type="text" placeholder="Enter the test results" name="ALP" required> </label><br>
+                </ol></div>
+                <div  class="input-box"><ol>
+                    <label for="CBG">CBG&nbsp;  
+                    <input type="text" placeholder="Enter the test results" name="CBG" required> </label>
+                    <label for="sodium">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Sodium &nbsp; 
+                    <input type="text" placeholder="Enter the test results" name="sodium" required> </label><br>
+                    <label for="potassium">&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Potassium &nbsp;
+                    <input type="text" placeholder="Enter the test results" name="potassium" required>  </label><br>
+                    <label for="chloride">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&emsp;
+                         &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&ensp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chloride &nbsp;  
+                    <input type="text" placeholder="Enter the test results" name="chloride" required></label><br>
+                </ol></div>
+                <div class="button-contain">
+                    <button type="next" onclick="window.location.href='http://localhost/WebPharma/NewPatient/PatientInfo.html'";>Next</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
