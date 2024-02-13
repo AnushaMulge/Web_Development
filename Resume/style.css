@@ -1,0 +1,94 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    
+}
+
+.profile-image {
+    padding-right: 10%;
+    padding-left: 10%;
+    max-width: 60%;
+    align-items: center;
+    max-height: 60%;
+    border-radius: 50%; /* Optional: to create a circular profile image */
+    margin-bottom: 20px;
+}
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+    height: auto;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: url('Background.jpg') center/cover no-repeat;
+    
+}
+
+.left-column {
+    flex: 0.6;
+    padding-right: 20px;
+    padding-left: 75px;
+    box-sizing: border-box;
+    background-color: #e1dede;
+    border-right: 2px solid #a4a3a3;
+    background: url('Background.jpg') center/cover no-repeat;
+}
+
+.right-column {
+    flex: 1;
+    padding-right: 75px;
+    padding-left: 5%;
+    box-sizing: border-box;
+    background-color: #fff;
+    background: url('Background1.jpg.jpg') center/cover no-repeat;
+    
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(28, 119, 145);
+}
+h2, h3 {
+    font:italic;
+    color: rgb(25, 122, 149);
+}
+
+
+p {
+    color: #474747;
+    text-align: justify;
+}
+
+#list{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(25, 122, 149);
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #3498db;
+}
+
+.skills {
+    margin-top: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    color: #474747;
+    margin-bottom: 5px;
+}
