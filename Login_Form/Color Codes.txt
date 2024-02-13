@@ -1,0 +1,16 @@
+Form: 
+border color: #f1f1f1
+box shadow: #ABB2B9
+
+input:
+border: #ccc
+
+Login Button:
+gradient: #2193b0, #6dd5ed
+
+Cancel Button: 
+background color: #f44336
+
+Hyperlink:
+text color: #666666
+hover color: #a64bf4
